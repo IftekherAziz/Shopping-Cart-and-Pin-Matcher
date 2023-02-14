@@ -2,7 +2,6 @@ body{
 	background: #fff;
 }
 .cart{
-	margin: 100px 0;
 	background-color: #F6F5FA;;
 	padding: 60px 0;
 }
@@ -13,7 +12,7 @@ body{
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 15px 20px;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 .center-item{
     display: flex;
@@ -24,7 +23,7 @@ body{
 	width: 115px;
 }
 .cart-item h5{
-    padding: 0 45px;
+    padding: 0 15px;
 }
 .cart-item .remove-item{
 	width: 25px!important;
