@@ -30,6 +30,9 @@ document
   .addEventListener("click", function () {
     const newPhoneNumber = updatePhoneNumber(true);
     updatePhoneTotalPrice(newPhoneNumber);
+
+    calculateSubTotal();
+
   });
 
 document
@@ -37,4 +40,6 @@ document
   .addEventListener("click", function () {
     const newPhoneNumber = updatePhoneNumber(false);
     updatePhoneTotalPrice(newPhoneNumber);
+
+    calculateSubTotal();
   });
